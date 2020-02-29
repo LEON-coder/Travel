@@ -2847,9 +2847,10 @@ main {
 
 .Ellipse {
     display: flex;
-    padding-left: 4px;
+    padding-left: 386px;
     padding-right: 0px;
     margin-left: -55px;
+    position: absolute;
 }
 
 .involved2_DJ_Bravo_2 {
@@ -3674,7 +3675,7 @@ footer {
 
 
 
-/*  1080px - Ð”Ð»Ñ ÑÐºÑ€Ð°Ð½Ð¾Ð² 4,5 - 5 Ð´ÑŽÐ¹Ð¼Ð¾Ð²  */
+/*  1080px - ÃƒÂÃ¢â‚¬ÂÃƒÂÃ‚Â»Ãƒâ€˜Ã‚Â Ãƒâ€˜Ã‚ÂÃƒÂÃ‚ÂºÃƒâ€˜Ã¢â€šÂ¬ÃƒÂÃ‚Â°ÃƒÂÃ‚Â½ÃƒÂÃ‚Â¾ÃƒÂÃ‚Â² 4,5 - 5 ÃƒÂÃ‚Â´Ãƒâ€˜Ã…Â½ÃƒÂÃ‚Â¹ÃƒÂÃ‚Â¼ÃƒÂÃ‚Â¾ÃƒÂÃ‚Â²  */
 @media screen and (min-width: 1080px) 
 
 {
@@ -4364,17 +4365,18 @@ margin-bottom: -110px;
     display: flex;
     justify-content: flex-start;
     padding-left: 0px;
+    margin-right: 100px;
 }
 
 .Navigation {
     display: inline-flex;
     padding-left: 0px;
     align-self: center;
-    width: 77%;
+    width: 100%;
     align-content: center;
-    padding-top: 0px;
+    padding-top: 10px;
     flex-direction: row;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     }
 
 .Navigation li {
@@ -4416,14 +4418,15 @@ margin-bottom: -110px;
     display: flex;
     justify-content: space-between;
     padding-left: 55px;
-    padding-top: 300px;
-    width: 45%;
+    padding-top: 260px;
+    width: 40%;
 }
 
 .Lorem_ipsum {
     display: flex;
     padding-left: 60px;
     padding-top: 50px;
+    width: 60%;
     }
     
     
@@ -4444,18 +4447,18 @@ margin-bottom: -110px;
 
 .Block_of_pictures {
     padding-top: 80px;
-
     width: 90%;
     display: flex;
     justify-content: space-between;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
     align-items: center;
+    box-sizing: border-box;
   }
 
 .Making_your_trip {
     display: flex;
-    margin-left: 10px;
+    margin-left: 0px;
     margin-right: 0px;
     }
 
@@ -4464,21 +4467,24 @@ margin-bottom: -110px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 50px;
+    margin-left: 0px;
     margin-top: 0px;
+    margin-right: 0;
 }
 
 .Ideas_will {
     display: flex;
     align-self: center;
     margin-top: 0px;
+    padding-right: 0;
 }
 
 .Navigate_your_path {
     display: flex;
-    
     flex-direction: column;
     margin-top: 0px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .Block_2_Texts_blocks {
@@ -4533,7 +4539,7 @@ main {
     align-self: center;
     width: 560px;
     padding-left: 18px;
-    margin-top: -36px;
+    margin-top: 20px;
 }
 
 
@@ -4642,7 +4648,7 @@ main {
     font-family: "Montserrat Regular";
     border-radius: 5px;
     display: flex;
-    margin-top: 20px;
+    margin-top: 23px;
 }
 
 
@@ -4729,7 +4735,7 @@ main {
     padding-bottom: 18px;
     padding-top: 12px;
     border-radius: 5px;
-    margin-top: 16px;
+    margin-top: 20px;
   }
  
 
@@ -4784,7 +4790,7 @@ main {
     padding-bottom: 18px;
     padding-top: 12px;
     border-radius: 5px;
-    margin-top: 6px;
+    margin-top: 26px;
 }
 
 .SIGN_UP_link_Professional:hover { 
@@ -4826,25 +4832,26 @@ main {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: row;
+    -ms-flex-direction: column;
+    flex-direction: row;
     -ms-flex-line-pack: center;
-        align-content: center;
+    align-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 60%;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
     margin-bottom: 50px;
-    margin-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
     }
 
 
 
 .Testimonial_block {
-    
     display: flex;
     flex-direction: column;
-    padding-left: 65px;
+    padding-left: 44px;
 }
 
 .TESTIMONIAL_IMG {
@@ -4885,11 +4892,10 @@ main {
 
 .Ellipse {
     display: flex;
-    margin-left: 22px;
+    margin-left: 2px;
 }
 
 .involved2_DJ_Bravo_2 {
-    
     font-size: 20px;
     font-family: "PTSerif";
     color: rgb(22, 22, 22);
@@ -4908,18 +4914,19 @@ main {
     width: 352px;
     height: 75px;
     z-index: 65;
-    padding-left: 77px;
+    padding-left: 0px;
+    margin-left: -60px;
 }
 
 .Testimonial_2 {
    background: #e3d5b8;
-    height: 155px;
-display: flex;
+   height: 155px;
+   display: flex;
    flex-direction: row;
    border-radius: 5px;
    width: 457px;
    align-items: center;
-   margin-left: 75px;
+   margin-left: auto;
    margin-right: auto;
    justify-content: center;
 }
@@ -4942,7 +4949,8 @@ display: flex;
     display: flex;
     align-self: center;
     padding-left: 0px;
-    margin-left: 28px;
+    margin-left: 232px;
+    position: absolute;
 }
 
 .Gallery {
