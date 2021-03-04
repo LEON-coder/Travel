@@ -474,7 +474,7 @@ main {
 
 .business {
     align-self: center;
-    font-size: 23px;
+    font-size: 24px;
     font-family: "PTSerif";
     color: rgb(255, 255, 255);
     line-height: 1.4;
@@ -1721,8 +1721,10 @@ footer {
         justify-content: flex-start;
         align-self: flex-start;
         width: 20%;
-        padding-top: 15px;
-        padding-left: 25px;
+        margin-top: 15px;
+        margin-left: 25px;
+        padding-top: 0;
+        padding-left: 0;
     }
     .Logo img {
         width: 100%;
@@ -1771,10 +1773,11 @@ footer {
     }
     .Travel_is_beautiful {
         display: flex;
-        width: 30%;
+        width: 40%;
         padding-top: 0px;
         margin-top: 30px;
-        padding-left: 25px;
+        margin-left: 25px;
+        padding-left: 0;
     }
     .Travel_is_beautiful img {
         width: 100%;
@@ -1782,8 +1785,9 @@ footer {
     .Lorem_ipsum {
         display: flex;
         padding-left: 24px;
-        padding-top: 30px;
-        width: 40%;
+        margin-top: 15px;
+        width: 70%;
+        padding-top: 0;
     }
     .Lorem_ipsum img {
         width: 100%;
@@ -1908,7 +1912,7 @@ footer {
         margin-left: auto;
         margin-right: auto;
         justify-content: space-between;
-        width: 90%;
+        width: 100%;
         padding-right: 52px;
         padding-left: 52px;
         align-items: center;
@@ -1934,16 +1938,17 @@ footer {
         line-height: 1.273;
         text-align: center;
         z-index: 37;
-        display: flex;
         height: 90px;
-        width: 300px;
+        width: 100%;
         justify-content: center;
-        align-self: center;
-        padding-left: 50px;
-        padding-right: 60px;
+        padding-left: 0;
+        padding-right: 0;
         margin-top: 40px;
         text-decoration: none;
         align-items: center;
+        display: flex;
+        padding-top: 0;
+        padding-bottom: 0;
     }
     .Pricing_and_Starter_Business_Professional_Block {
         margin-top: 0px;
@@ -2387,7 +2392,7 @@ footer {
     }
     .Photo_gallery {
         padding-top: 0px;
-        margin-left: 0px;
+        margin-left: auto;
         margin-right: auto;
         display: flex;
         justify-content: center;
@@ -2401,7 +2406,7 @@ footer {
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
-        padding-left: 95px;
+        padding-left: 0;
     }
     .Photo_gallery-second {
         display: flex;
@@ -2410,24 +2415,21 @@ footer {
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
-        padding-left: 95px;
+        padding-left: 0;
     }
     .VIEW_MORE_PICTURES {
         text-align: center;
-        margin-left: auto;
-        margin-right: auto;
         display: flex;
-        padding-top: 50px;
+        padding-top: 0;
         font-size: 20px;
         font-family: "Montserrat";
         color: rgb(208, 57, 88);
-        text-decoration: underline;
+        text-decoration: none;
+        margin-top: 50px;
         line-height: 1.4;
-        height: 19px;
+        height: auto;
         z-index: 98;
         justify-content: center;
-        margin-left: 60px;
-        margin-right: auto;
     }
     footer {
         display: -webkit-box;
@@ -2457,8 +2459,9 @@ footer {
         -ms-flex-line-pack: start;
         padding-left: 0px;
         width: 90%;
+        padding-top: 0;
         display: flex;
-        padding-top: 40px;
+        margin-top: 40px;
         box-sizing: border-box;
     }
     .All_Rights_Reserved img {
@@ -2471,8 +2474,9 @@ footer {
         padding-right: 0px;
         display: flex;
         justify-content: center;
-        padding-bottom: 40px;
-        width: 20%;
+        margin-bottom: 40px;
+        padding-bottom: 0;
+        margin-top: 20px;
     }
 }
 
@@ -2502,8 +2506,8 @@ footer {
         justify-content: flex-start;
         align-self: flex-start;
         width: 20%;
-        padding-top: 15px;
-        padding-left: 25px;
+        padding-top: 0;
+        padding-left: 0;
     }
     .Navigation {
         display: none;
@@ -2547,10 +2551,11 @@ footer {
     }
     .Travel_is_beautiful {
         display: flex;
-        width: 30%;
+        width: 35%;
         padding-top: 0px;
-        margin-top: 30px;
-        padding-left: 25px;
+        margin-top: 20px;
+        padding-left: 0;
+        margin-left: 25px;
     }
     .Travel_is_beautiful img {
         width: 100%;
@@ -2558,8 +2563,9 @@ footer {
     .Lorem_ipsum {
         display: flex;
         padding-left: 24px;
-        padding-top: 30px;
-        width: 40%;
+        margin-top: 20px;
+        padding-top: 0;
+        width: 60%;
     }
     .Lorem_ipsum img {
         width: 100%;
@@ -3238,7 +3244,7 @@ footer {
         padding-left: 0px;
         width: 90%;
         display: flex;
-        padding-top: 40px;
+        padding-top: 0;
         box-sizing: border-box;
     }
     .All_Rights_Reserved img {
@@ -3251,8 +3257,7 @@ footer {
         padding-right: 0px;
         display: flex;
         justify-content: center;
-        padding-bottom: 30px;
-        width: 17%;
+        padding-bottom: 0;
     }
     .Logo_copy img {
         width: 100%;
@@ -3285,8 +3290,8 @@ footer {
         justify-content: flex-start;
         align-self: flex-start;
         width: 20%;
-        padding-top: 15px;
-        padding-left: 25px;
+        padding-top: 0;
+        padding-left: 0;
     }
     .Navigation {
         display: none;
@@ -3332,18 +3337,19 @@ footer {
         display: flex;
         width: 35%;
         padding-top: 0px;
-        margin-top: 50px;
-        padding-left: 25px;
+        margin-top: 30px;
+        padding-left: 0;
     }
     .Travel_is_beautiful img {
         width: 100%;
     }
     .Lorem_ipsum {
         display: flex;
-        padding-left: 24px;
+        margin-left: 24px;
+        padding-left: 0;
         padding-top: 0;
-        width: 32%;
-        margin-top: 30px;
+        width: 60%;
+        margin-top: 20px;
     }
     .Lorem_ipsum img {
         width: 100%;
@@ -3792,7 +3798,7 @@ footer {
         -ms-flex-pack: center;
         justify-content: center;
         box-sizing: border-box;
-        margin-top: -80px;
+        margin-top: -100px;
     }
     .Testimonial-1_and_2 {
         display: flex;
@@ -3966,16 +3972,14 @@ footer {
     }
     .VIEW_MORE_PICTURES {
         text-align: center;
-        margin-left: auto;
-        margin-right: auto;
         display: flex;
-        padding-top: 50px;
+        padding-top: 0;
+        height: auto;
         font-size: 20px;
         font-family: "Montserrat";
         color: rgb(208, 57, 88);
-        text-decoration: underline;
+        text-decoration: none;
         line-height: 1.4;
-        height: 19px;
         z-index: 98;
         justify-content: center;
         margin-left: auto;
@@ -3989,7 +3993,7 @@ footer {
         -ms-flex-pack: justify;
         justify-content: space-between;
         background: url('img/Rounded%20Rectangle%209.png');
-        margin-top: 100px;
+        margin-top: 60px;
         height: 143px;
         box-sizing: border-box;
         flex-direction: column;
@@ -4010,7 +4014,7 @@ footer {
         padding-left: 0px;
         width: 90%;
         display: flex;
-        padding-top: 40px;
+        padding-top: 0;
         box-sizing: border-box;
     }
     .All_Rights_Reserved img {
@@ -4023,7 +4027,7 @@ footer {
         padding-right: 0px;
         display: flex;
         justify-content: center;
-        padding-bottom: 30px;
+        padding-bottom: 0;
         width: 17%;
     }
     .Logo_copy img {
@@ -4058,6 +4062,7 @@ footer {
         align-self: flex-start;
         width: 23%;
         padding-top: 54px;
+        margin-top: 0;
         padding-left: 65px;
         margin-right: 120px;
     }
@@ -4662,8 +4667,9 @@ footer {
         width: 90%;
         margin-left: auto;
         margin-right: auto;
-        align-items: center;
+        align-items: baseline;
         margin-top: 20px;
+        height: auto;
     }
     .Logo {
         display: flex;
@@ -4671,9 +4677,10 @@ footer {
         margin-left: 0px;
         padding-left: 0;
         padding-top: 0;
-        margin-right: 160px;
+        margin-right: 0;
         align-self: center;
         width: 15%;
+        margin-top: 0;
     }
     .Navigation {
         display: inline-flex;
@@ -4683,14 +4690,13 @@ footer {
         margin-top: 0;
         align-self: center;
         align-items: center;
-        width: 70%;
+        width: 80%;
         flex-direction: row;
-        margin-left: 190px;
-        padding-top: 35px;
+        margin-left: 70px;
+        padding-top: 0;
     }
     .Navigation li {
-        display: inline-block;
-        margin-right: 0;
+        margin-right: 15px;
         top: 0;
         align-self: center;
     }
@@ -4698,15 +4704,16 @@ footer {
         top: 0;
         text-align: center;
         display: block;
-        font-size: 18px;
+        font-size: 16px;
         font-family: 'Montserrat';
         color: #1b1b1b;
         list-style: none;
         text-decoration: none;
         padding-top: 11px;
         padding-bottom: 11px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 20px;
     }
     .Navigation li a:hover {
         color: #ffffff;
@@ -4722,18 +4729,21 @@ footer {
     .Travel_is_beautiful {
         display: flex;
         padding-top: 0;
-        padding-left: 40px;
+        margin-left: 40px;
+        padding-left: 0;
         width: 50%;
-        margin-top: 270px;
+        margin-top: 170px;
     }
     .Travel_is_beautiful img {
         width: 100%;
     }
     .Lorem_ipsum {
         display: flex;
-        padding-left: 45px;
-        padding-top: 80px;
-        width: 46%;
+        padding-left: 0;
+        margin-top: 80px;
+        padding-top: 0;
+        width: 80%;
+        margin-left: 45px;
     }
     .Block_2 {
         background: #ffffff;
@@ -4915,14 +4925,16 @@ footer {
         font-weight: bold;
         line-height: 1.6;
         text-align: left;
-        height: 37px;
+        height: auto;
         z-index: 38;
+        padding-top: 0;
+        margin-top: 40px;
     }
     .Starter_Business_Professional {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        margin-top: 30px;
+        margin-top: 0px;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -4945,36 +4957,40 @@ footer {
         border-radius: 5px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 60px;
+        margin-top: 40px;
     }
     .Starter {
         display: flex;
         margin-top: 8px;
         justify-content: center;
+        padding-top: 0;
     }
     .free {
-        padding-top: 10px;
+        margin-top: 10px;
         display: flex;
+        padding-top: 0;
         justify-content: center;
     }
     .Free_service {
-        padding-top: 20px;
+        margin-top: 20px;
+        padding-top: 0;
         display: flex;
         justify-content: center;
     }
     .link_try {
         background: #e3d5b8;
         color: black;
-        padding-left: 49px;
-        padding-right: 49px;
+        padding-left: 0;
+        padding-right: 0;
         padding-bottom: 15px;
         padding-top: 15px;
         text-decoration: none;
         font-size: 22pt;
         font-family: "Montserrat Regular";
         border-radius: 5px;
+        justify-content: center;
         display: flex;
-        margin-top: 37px;
+        margin-top: 55px;
     }
     .link_try:hover {
         border-radius: 5px;
@@ -5042,7 +5058,7 @@ footer {
         padding-bottom: 18px;
         padding-top: 12px;
         border-radius: 5px;
-        margin-top: 26px;
+        margin-top: 20px;
     }
     .SIGN_UP_link:hover {
         border-radius: 5px;
@@ -5111,7 +5127,7 @@ footer {
         -ms-flex-pack: center;
         justify-content: center;
         box-sizing: border-box;
-        margin-top: 10px;
+        margin-top: 0px;
     }
     .Testimonial-1_and_2 {
         display: flex;
@@ -5135,28 +5151,33 @@ footer {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        width: 58%;
+        width: 70%;
         margin-bottom: 50px;
         margin-left: auto;
         margin-right: auto;
         padding-left: 0;
     }
     .Testimonial_block {
-        margin-left: -58px;
+        margin-left: 0;
         padding-left: 0;
         display: flex;
-        margin-right: auto;
+        margin-right: 0;
+        width: auto;
+        margin-top: 0;
+        align-self: center;
     }
     .TESTIMONIAL_IMG {
-        padding-top: 90px;
-        padding-bottom: 130px;
+        margin-top: 90px;
+        margin-bottom: 70px;
         font-size: 50px;
         font-family: "Montserrat";
+        padding-top: 0;
         color: rgb(31, 31, 31);
+        padding-bottom: 0;
         font-weight: bold;
         line-height: 1.6;
         text-align: center;
-        height: 37px;
+        height: auto;
         z-index: 63;
         padding-left: 0px;
     }
@@ -5172,13 +5193,14 @@ footer {
         justify-content: flex-start;
         padding-left: 0px;
         padding-right: 0;
-        margin-left: 90px;
+        margin-left: 0;
     }
     .DJ_Bravo {
-        padding-top: 20px;
+        margin-top: 20px;
         padding-left: 0px;
-        width: 66%;
-        margin-left: 90px;
+        width: 90%;
+        margin-left: 0;
+        padding-top: 0;
     }
     .Ellipse {
         display: flex;
@@ -5186,8 +5208,9 @@ footer {
         padding-right: 0px;
         margin-right: 0;
         align-items: center;
-        margin-left: 230px;
-        margin-top: 20px;
+        margin-left: 0;
+        margin-top: 0;
+        align-self: center;
     }
     .involved2_DJ_Bravo_2 {
         align-self: baseline;
@@ -5195,6 +5218,7 @@ footer {
         display: flex;
         flex-direction: column;
         padding-right: 0px;
+        margin-right: 12px;
         font-family: "PTSerif";
         color: rgb(22, 22, 22);
         line-height: 1.4;
@@ -5202,13 +5226,14 @@ footer {
         z-index: 65;
         font-size: 20px;
         margin-top: 10px;
+        width: auto;
     }
     .Testimonial_2 {
         background: #e3d5b8;
         height: 155px;
         display: flex;
         border-radius: 5px;
-        width: 457px;
+        width: 70%;
         align-items: center;
         margin-left: auto;
         justify-content: space-between;
@@ -5221,19 +5246,20 @@ footer {
         justify-content: flex-start;
         font-size: 20px;
         width: 320px;
-        margin-left: 40px;
+        margin-left: 0px;
     }
     .DJ_Bravo_2 {
         padding-top: 0;
         padding-left: 0;
-        width: 81%;
-        margin-left: 40px;
+        width: 91%;
+        margin-left: 0px;
     }
     .Ellipse_2 {
         z-index: 2;
         display: flex;
         align-self: center;
-        margin-left: 35px;
+        margin-right: 30px;
+        margin-left: 0;
         align-items: center;
         margin-top: 0px;
     }
@@ -5254,12 +5280,13 @@ footer {
         font-weight: bold;
         line-height: 1.6;
         text-align: left;
-        height: 37px;
+        height: auto;
         z-index: 64;
-        margin-bottom: 13px;
+        margin-bottom: 0px;
     }
     .Photo_gallery {
-        padding-top: 50px;
+        margin-top: 50px;
+        padding-top: 0;
         margin-left: auto;
         margin-right: auto;
     }
@@ -5287,13 +5314,14 @@ footer {
         margin-right: auto;
         display: flex;
         justify-content: center;
-        padding-top: 50px;
+        padding-top: 0;
+        margin-top: 50px;
         font-size: 20px;
         font-family: "Montserrat";
         color: rgb(208, 57, 88);
-        text-decoration: underline;
+        text-decoration: none;
         line-height: 1.4;
-        height: 19px;
+        height: auto;
         z-index: 98;
     }
     footer {
@@ -5743,7 +5771,6 @@ footer {
     .TESTIMONIAL_IMG {
         padding-top: 124px;
         padding-bottom: 82px;
-        font-size: 50px;
         font-family: "Montserrat";
         color: rgb(31, 31, 31);
         font-weight: bold;
@@ -6500,16 +6527,19 @@ footer {
     .Travel_is_beautiful {
         display: flex;
         justify-content: space-between;
-        padding-left: 55px;
+        margin-left: 55px;
         padding-top: 0;
+        padding-left: 0;
         width: 40%;
         margin-top: 150px;
     }
     .Lorem_ipsum {
         display: flex;
-        padding-left: 60px;
-        padding-top: 50px;
-        width: 35%;
+        padding-left: 0;
+        padding-top: 0;
+        margin-top: 50px;
+        width: 70%;
+        margin-left: 55px;
     }
     #Block_2_of_pictures_and_Texts_blocks {
         display: flex;
@@ -6526,11 +6556,11 @@ footer {
     }
     .Block_of_pictures {
         padding-top: 0px;
-        width: 100%;
+        width: 90%;
         display: flex;
         justify-content: space-between;
-        padding-right: 80px;
-        padding-left: 50px;
+        padding-right: 0;
+        padding-left: 0;
         align-items: center;
         box-sizing: border-box;
     }
@@ -6587,6 +6617,10 @@ footer {
     }
     .business_and_story {
         padding-top: 0px;
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        justify-content: space-between;
     }
     .business {
         display: flex;
@@ -6595,12 +6629,13 @@ footer {
         color: rgb(255, 255, 255);
         line-height: 1.4;
         text-align: left;
+        margin-left: 40px;
         padding-bottom: 0;
         height: auto;
         z-index: 34;
         align-self: center;
         width: 560px;
-        padding-left: 17px;
+        padding-left: 0;
         margin-top: 0;
     }
     .Our_story {
@@ -6618,7 +6653,7 @@ footer {
         text-align: center;
         z-index: 37;
         align-self: center;
-        margin-right: -50px;
+        margin-right: 0px;
         display: flex;
         width: 230px;
         height: 20px;
@@ -6648,12 +6683,12 @@ footer {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        margin-top: 50px;
+        margin-top: 90px;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: row;
-        width: 90%;
+        width: 70%;
         justify-content: space-between;
         padding-left: 0px;
         flex-wrap: wrap;
@@ -6662,26 +6697,24 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 0px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         width: 318px;
         height: 391px;
         background: white;
         border-radius: 5px;
-        margin-top: 40px;
-        margin-left: 90px;
+        margin-top: 0px;
+        margin-right: 0;
+        margin-left: 0;
+        box-sizing: border-box;
     }
     .Starter {
         display: flex;
         margin-top: 16px;
     }
     .free {
-        padding-top: 17px;
+        padding-top: 0;
     }
     .Free_service {
-        padding-top: 20px;
+        padding-top: 0px;
     }
     .link_try {
         background: #e3d5b8;
@@ -6695,7 +6728,7 @@ footer {
         font-family: "Montserrat Regular";
         border-radius: 5px;
         display: flex;
-        margin-top: 22px;
+        margin-top: 45px;
     }
     .link_try:hover {
         border-radius: 5px;
@@ -6713,10 +6746,10 @@ footer {
         height: 391px;
         background: white;
         border-radius: 5px;
-        margin-top: 40px;
+        margin-top: 0;
         box-sizing: border-box;
         justify-content: initial;
-        margin-right: 85px;
+        margin-right: 0;
     }
     .Popular_Block_Business {
         display: none;
@@ -6741,22 +6774,25 @@ footer {
         bottom: 761px
     }
     .Business {
-        padding-top: 30px;
+        margin-top: 15px;
         display: flex;
+        padding-top: 0;
         justify-content: center;
         padding-bottom: 0px;
     }
     .dollars97 {
         display: flex;
         justify-content: center;
-        padding-top: 20px;
-        padding-bottom: 8px;
+        margin-top: 8px;
+        padding-bottom: 0;
+        padding-top: 0;
     }
     .Free_service_Business {
-        padding-top: 11px;
+        padding-top: 0;
         display: flex;
         justify-content: center;
-        padding-bottom: 5px;
+        padding-bottom: 0;
+        margin-top: 20px;
     }
     .SIGN_UP_link {
         text-decoration: none;
@@ -6769,7 +6805,7 @@ footer {
         padding-bottom: 18px;
         padding-top: 12px;
         border-radius: 5px;
-        margin-top: 22px;
+        margin-top: 48px;
     }
     .SIGN_UP_link:hover {
         border-radius: 5px;
@@ -6836,7 +6872,7 @@ footer {
         -ms-flex-pack: center;
         justify-content: center;
         box-sizing: border-box;
-        margin-top: 530px;
+        margin-top: 490px;
     }
     .Testimonial_Gallery_com {
         display: flex;
@@ -6849,9 +6885,9 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        margin-top: -600px;
+        margin-top: -610px;
         padding-left: 0px;
+        align-items: center;
     }
     .Testimonial {
         display: -webkit-box;
@@ -6866,7 +6902,7 @@ footer {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        width: 60%;
+        width: 100%;
         margin-bottom: 50px;
         margin-left: auto;
         margin-right: auto;
@@ -6876,25 +6912,25 @@ footer {
         flex-direction: column;
         padding-left: 0px;
         width: auto;
-        margin-left: -90px;
+        margin-left: 0;
     }
     .TESTIMONIAL_IMG {
         padding-top: 0;
-        padding-bottom: 122px;
-        font-size: 50px;
+        padding-bottom: 0;
         font-family: "Montserrat";
         color: rgb(31, 31, 31);
         font-weight: bold;
         line-height: 1.6;
         text-align: center;
-        height: 37px;
+        margin-top: 50px;
+        height: auto;
+        margin-bottom: 50px;
         z-index: 63;
-        width: 40%;
         margin-left: auto;
         margin-right: auto;
         display: flex;
         justify-content: center;
-        padding-left: 35px;
+        padding-left: 0;
     }
     .I_have_been_involved {
         font-size: 20px;
@@ -6906,18 +6942,19 @@ footer {
         z-index: 65;
         display: flex;
         justify-content: flex-start;
-        padding-right: 10px;
+        padding-right: 0;
     }
     .DJ_Bravo {
-        padding-top: 30px;
-        width: 62%;
+        margin-top: 30px;
+        padding-top: 0;
+        width: 80%;
     }
     .Ellipse {
         display: flex;
-        margin-left: 215px;
+        margin-left: 0;
     }
     .involved2_DJ_Bravo_2 {
-        align-self: baseline;
+        align-self: center;
         display: flex;
         flex-direction: column;
         padding-right: 0px;
@@ -6925,11 +6962,13 @@ footer {
         font-family: "PTSerif";
         color: rgb(22, 22, 22);
         line-height: 1.4;
+        margin-left: 30px;
+        margin-top: 0;
         width: 352px;
-        height: 75px;
+        height: auto;
         z-index: 65;
         padding-left: 0;
-        margin-left: 80px;
+        margin-right: 0;
     }
     .Testimonial_2 {
         background: #e3d5b8;
@@ -6937,37 +6976,40 @@ footer {
         display: flex;
         flex-direction: row;
         border-radius: 5px;
-        width: 457px;
+        width: 100%;
         align-items: center;
-        margin-left: auto;
-        margin-right: auto;
         justify-content: center;
+        margin-right: 0;
     }
     .involved2 {
         padding-top: 0px;
         padding-left: 0;
         display: flex;
         justify-content: flex-start;
+        margin-top: 0;
+        margin-right: 0;
     }
     .DJ_Bravo_2 {
         padding-top: 0;
         padding-left: 0;
-        width: 75%;
+        width: 85%;
     }
     .Ellipse_2 {
         z-index: 2;
         display: flex;
+        margin-right: 0;
         align-self: center;
         padding-left: 0px;
-        margin-left: 10px;
+        margin-left: 16px;
     }
     .Gallery {
         width: 530px;
         display: flex;
         align-items: center;
         flex-direction: column;
-        padding-top: 70px;
+        margin-top: 70px;
         margin-left: auto;
+        padding-top: 0;
         margin-right: auto;
     }
     .Gallery_TEXT {
@@ -6977,13 +7019,14 @@ footer {
         font-weight: bold;
         line-height: 1.6;
         text-align: left;
-        height: 37px;
+        height: auto;
         z-index: 64;
-        margin-bottom: 13px;
+        margin-bottom: 0;
     }
     .Photo_gallery {
-        padding-top: 50px;
+        margin-top: 50px;
         margin-left: auto;
+        padding-top: 0;
         margin-right: auto;
     }
     .Photo_gallery-first {
@@ -7010,13 +7053,13 @@ footer {
         margin-right: auto;
         display: flex;
         justify-content: center;
-        padding-top: 50px;
+        padding-top: 0;
         font-size: 20px;
         font-family: "Montserrat";
         color: rgb(208, 57, 88);
-        text-decoration: underline;
+        text-decoration: none;
         line-height: 1.4;
-        height: 19px;
+        height: auto;
         z-index: 98;
     }
     footer {
@@ -7027,7 +7070,7 @@ footer {
         -ms-flex-pack: justify;
         justify-content: space-between;
         background: url('img/Rounded%20Rectangle%209.png');
-        margin-top: 100px;
+        margin-top: 80px;
         height: 183px;
         flex-direction: row;
     }
@@ -7047,17 +7090,20 @@ footer {
         align-content: flex-start;
         padding-left: 0px;
         display: flex;
+        margin-top: 0;
         padding-top: 0px;
         width: 60%;
         margin-left: 60px;
+        margin-right: 0px;
     }
     .Logo_copy {
         -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
-        padding-right: 30px;
+        padding-right: 0;
         padding-bottom: 0px;
-        width: 10%;
+        width: 15%;
+        margin-right: 40px;
     }
 }
 
@@ -7149,13 +7195,14 @@ footer {
     .Travel_is_beautiful {
         display: flex;
         padding-top: 0;
-        padding-left: 120px;
-        margin-top: 180px;
+        margin-left: 120px;
+        margin-top: 130px;
+        padding-left: 0;
         width: 40%;
     }
     .Lorem_ipsum {
         display: flex;
-        padding-left: 125px;
+        margin-left: 125px;
         padding-top: 0;
         width: 40%;
         margin-top: 50px;
@@ -7284,8 +7331,8 @@ footer {
         text-align: left;
         z-index: 34;
         align-self: center;
-        width: 570px;
-        padding-left: 48px;
+        width: 60%;
+        padding-left: 0;
         padding-top: 0;
     }
     .Our_story {
@@ -7294,15 +7341,15 @@ footer {
         -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-content: center;
-        width: 23%;
-        font-size: 22px;
+        width: 25%;
+        font-size: 26px;
         font-family: "Montserrat";
         color: rgb(22, 22, 22);
         line-height: 1.273;
         text-align: center;
         height: 17px;
         z-index: 37;
-        padding-top: 26px;
+        padding-top: 40px;
         padding-bottom: 40px;
         display: flex;
         justify-content: center;
@@ -7314,7 +7361,7 @@ footer {
         display: flex;
         background: #e3d5b8;
         width: 100%;
-        height: 570px;
+        height: 540px;
         flex-direction: column;
     }
     .Pricing_text {
@@ -7326,19 +7373,19 @@ footer {
         font-weight: bold;
         line-height: 1.6;
         text-align: left;
-        height: 37px;
+        height: auto;
         z-index: 38;
     }
     .Starter_Business_Professional {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        margin-top: 130px;
+        margin-top: 30px;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: row;
-        width: 90%;
+        width: 100%;
         justify-content: space-evenly;
         margin-right: auto;
         margin-left: auto;
@@ -7366,7 +7413,7 @@ footer {
     }
     .Starter {
         display: flex;
-        padding-top: 5px;
+        padding-top: 0;
         margin-bottom: 0px;
         font-size: 22px;
         font-family: "PTSerif";
@@ -7376,7 +7423,7 @@ footer {
         z-index: 43;
     }
     .free {
-        padding-top: 11px;
+        padding-top: 0;
         font-size: 60px;
         font-family: "Montserrat";
         color: rgb(208, 57, 88);
@@ -7388,7 +7435,7 @@ footer {
         justify-content: center;
     }
     .Free_service {
-        padding-top: 12px;
+        padding-top: 0;
         width: 50%;
     }
     .link_try {
@@ -7454,7 +7501,7 @@ footer {
         bottom: 761px
     }
     .Business {
-        padding-top: 15px;
+        padding-top: 0;
         display: flex;
         margin-bottom: 10px;
         font-size: 22px;
@@ -7475,7 +7522,7 @@ footer {
         z-index: 50;
     }
     .Free_service_Business {
-        padding-top: 10px;
+        padding-top: 0;
         width: 50%;
     }
     .SIGN_UP_link {
@@ -7511,15 +7558,16 @@ footer {
         box-sizing: border-box;
     }
     .Professional {
-        padding-top: 30px;
+        padding-top: 0;
         display: flex;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
         font-size: 22px;
         font-family: "PTSerif";
         color: rgb(22, 22, 22);
         line-height: 1.273;
         text-align: center;
         z-index: 43;
+        margin-top: 15px;
     }
     .Dollars297 {
         display: flex;
@@ -7527,6 +7575,7 @@ footer {
         font-size: 60px;
         font-family: "Montserrat";
         color: rgb(208, 57, 88);
+        margin-bottom: 30px;
         font-weight: bold;
         line-height: 1.333;
         text-align: center;
@@ -7537,7 +7586,7 @@ footer {
     .Account_Block_Biusness {
         display: flex;
         justify-content: center;
-        padding-top: 10px;
+        padding-top: 0;
         width: 50%;
         margin-left: auto;
         margin-right: auto;
@@ -7553,7 +7602,7 @@ footer {
         padding-bottom: 18px;
         padding-top: 12px;
         border-radius: 5px;
-        margin-top: 5px;
+        margin-top: 0;
         text-align: center;
         justify-content: center;
     }
@@ -7582,10 +7631,11 @@ footer {
     .Testimonial_Gallery_com {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         margin-left: auto;
-        width: 100%;
+        width: 80%;
         margin-right: auto;
-        margin-top: 150px;
+        margin-top: 60px;
         align-content: center;
     }
     .Testimonial-1_and_2 {
@@ -7595,7 +7645,7 @@ footer {
         align-items: center;
         width: 50%;
         margin-top: -300px;
-        margin-left: 120px;
+        margin-left: 0;
         margin-right: -40px;
     }
     .Testimonial {
@@ -7620,7 +7670,7 @@ footer {
         display: flex;
         flex-direction: column;
         padding-left: 0px;
-        margin-left: 36px;
+        margin-left: 0;
     }
     .TESTIMONIAL_IMG {
         padding-bottom: 0;
@@ -7632,7 +7682,7 @@ footer {
         text-align: center;
         z-index: 63;
         padding-left: 0px;
-        padding-right: 110px;
+        padding-right: 0;
         margin-top: 301px;
     }
     .I_have_been_involved {
@@ -7643,25 +7693,25 @@ footer {
         width: 336px;
         height: 75px;
         z-index: 65;
-        padding-right: 10px;
+        padding-right: 0;
         display: flex;
         justify-content: flex-start;
         margin-left: 0;
     }
     .DJ_Bravo {
-        padding-top: 30px;
+        padding-top: 0;
         width: 86%;
         margin-left: 0;
     }
     .Ellipse {
         display: flex;
-        margin-left: -163px;
+        margin-left: 0;
         padding-right: 0;
-        margin-right: auto;
+        margin-right: 0;
     }
     .involved2_DJ_Bravo_2 {
-        align-self: baseline;
-        padding-left: 1px;
+        align-self: center;
+        padding-left: 0;
         display: flex;
         flex-direction: column;
         font-size: 20px;
@@ -7670,8 +7720,8 @@ footer {
         line-height: 1.4;
         height: 75px;
         z-index: 65;
-        padding-right: 10px;
-        margin-left: 68px;
+        padding-right: 0;
+        margin-left: 90px;
         width: auto;
     }
     .Testimonial_2 {
@@ -7679,10 +7729,11 @@ footer {
         height: 155px;
         display: flex;
         flex-direction: row;
+        justify-content: center;
         border-radius: 5px;
         width: 457px;
         align-items: center;
-        margin-left: -230px;
+        margin-left: -90px;
         margin-right: 0;
     }
     .involved2 {
@@ -7698,7 +7749,7 @@ footer {
     .Ellipse_2 {
         z-index: 2;
         display: flex;
-        margin-left: 0;
+        margin-left: 10px;
         padding-left: 0px;
     }
     .Gallery {
@@ -7707,7 +7758,7 @@ footer {
         align-items: center;
         flex-direction: column;
         padding-top: 0;
-        margin-left: 0;
+        margin-right: 0;
         margin-left: 0px;
         margin-top: 0px;
     }
@@ -7733,13 +7784,13 @@ footer {
         margin-right: auto;
         display: flex;
         justify-content: center;
-        padding-top: 50px;
+        padding-top: 0;
         font-size: 20px;
         font-family: "Montserrat";
         color: rgb(208, 57, 88);
-        text-decoration: underline;
+        text-decoration: none;
         line-height: 1.4;
-        height: 19px;
+        height: auto;
         z-index: 98;
     }
     footer {
@@ -7768,7 +7819,7 @@ footer {
         -ms-flex-line-pack: start;
         align-content: flex-start;
         display: flex;
-        margin-left: 140px;
+        margin-left: 160px;
         padding-left: 0px;
         width: 40%;
     }
